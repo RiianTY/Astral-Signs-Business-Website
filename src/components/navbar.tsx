@@ -26,11 +26,7 @@ export const Navbar = () => {
             href="/"
           >
             {/* <Logo /> */}
-            <img
-              className="w-[24px] h-[24px] pr-1"
-              src="./public/image1.svg"
-              alt=""
-            />
+            <img className="w-[24px] h-[24px] pr-1" src="/image1.svg" alt="" />
             <p className="font-bold text-inherit">Astral Signs</p>
           </Link>
         </NavbarBrand>
