@@ -22,13 +22,16 @@ export const ContactForm = () => {
         })
         .then(
           () => {
-            return toast("Thanks for contacting us", {
-              description: "Well get back to you as soon as possible.",
-              action: {
-                label: "X",
-                onClick: () => console.log("Undo"),
-              },
-            });
+            return (
+              action &&
+              toast("Thanks for contacting us", {
+                description: "Well get back to you as soon as possible.",
+                action: {
+                  label: "X",
+                  onClick: () => console.log("Undo"),
+                },
+              })
+            );
           },
           (error: { text: string }) => {
             console.error("FAILED...", error.text);

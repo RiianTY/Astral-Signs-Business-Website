@@ -1,7 +1,7 @@
 import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 
-import Gallery from "@/components/Gallery";
+import Gallery from "./../components/gallery";
 
 export default function GalleryPage() {
   return (
