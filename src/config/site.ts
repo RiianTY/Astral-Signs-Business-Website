@@ -40,9 +40,9 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/frontio-ai/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    discord: "https://discord.gg/9b6yyZKmH4",
+    github: "",
+    twitter: "",
+    discord: "",
     contact: "/contact",
   },
   services: [
